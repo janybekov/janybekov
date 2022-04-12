@@ -1,0 +1,150 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/ 
+.container {
+
+}
+.block_title {
+    background-color: orange;
+    height: 65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.block_title h1::first-letter {
+    color: red;
+}
+.box_img {
+    display: flex;
+}
+.block_img img{
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 70px 0px 0px 50px;
+}
+.button_1 {
+    display: flex;
+}
+.bt_1 {
+    font-size: 25px;
+    margin: 15px 10px 0px 125px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: 300ms;
+}
+.bt_2 {
+    font-size: 25px;
+    margin: 15px 10px 0px 195px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: 300ms;
+}
+.bt_3 {
+    font-size: 25px;
+    margin: 15px 10px 0px 175px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: 300ms;
+}
+.bt_4 {
+    font-size: 25px;
+    margin: 15px 10px 0px 200px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: 350ms;
+}
+.bt_5 {
+    font-size: 25px;
+    margin: 15px 10px 0px 200px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.block_list_end {
+    background-color: blue;
+    height: 70px;
+    margin-top: 100px;
+}
+.block_list_end button {
+    background-color: green;
+    width: 225px;
+    height: 40px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 15px;
+    color: white;
+    border-radius: 12px;
+}
+.block_list_end button:hover {
+    background-color: greenyellow;
+}
+.text__buy {
+    display: flex;
+}
+.p_1 {
+    position: relative;
+    left: 1295px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.p_2 {
+    position: relative;
+    left: 845px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.p_3 {
+    position: relative;
+    left: 380px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.p_4 {
+    position: relative;
+    left: -80px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.p_5 {
+    position: relative;
+    left: -555px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.text__buy span {
+    text-decoration:line-through
+}

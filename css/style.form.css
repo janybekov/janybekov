@@ -1,0 +1,199 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/ 
+.container {
+    background-color: cadetblue;
+    height: 753px;
+}
+.block_title {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    margin: 0 0 20px 0;
+    position: relative;
+    top: 20px;
+}
+.form {
+    border: 2px solid black;
+    height: 550px;
+    background-color: white;
+    width: 800px;
+    position: absolute;
+    left: 360px;
+    z-index: 2;
+    top: 100px;
+}
+.inpt {
+    border: 1px solid black;
+	height: 40px;
+	width: 400px;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 180px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.inpt input {
+    font-size: 20px;
+}
+.inpt_2 {
+    border: 1px solid #666;
+	height: 40px;
+	width: 400px;
+    margin-left: 15px;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.inpt_2 input {
+    font-size: 20px;
+}
+.p_1 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 2px;
+    position: relative;
+    left: 180px;
+}
+.p_2 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 1px;
+    position: relative;
+    left: 180px;
+}
+.p_3 {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 3px;
+    position: relative;
+    left: 180px;
+}
+.p_4 {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: -25px;
+    position: relative;
+    left: 170px;
+}
+.p_5 {
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: -25px;
+    position: relative;
+    left: 180px;
+}
+.data_pt {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 50px;
+    position: relative;
+    left: 180px;
+    text-align: center;
+}
+.select_2 {
+    margin-top: -18px;
+    margin-left: 90px;
+    border: 1px solid black;
+    width: 70px;
+    position: relative;
+    left: 180px;
+    text-align: center;
+}
+.data_pt_2 {
+    margin-top: -20px;
+    margin-left: 180px;
+    border: 1px solid black;
+    width: 85px;
+    position: relative;
+    left: 180px;
+    text-align: center;
+}
+.inpt_up {
+    border: 1px solid #666;
+	height: 40px;
+	width: 400px;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    position: relative;
+    left: 180px;
+    padding: 0px 10px;
+}
+.inpt_up input {
+    font-size: 20px;
+}
+.p_6 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    left: 180px;
+}
+.p_7 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    left: 180px;
+}
+.inpt_up {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    left: 180px;
+}
+.p_8 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    left: 180px;
+}
+.btn_1 {
+    font-size: 30px;
+    background-color: #9be966;
+    margin-left: 20px;
+    width: 370px;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    left: 195px;
+}
+.btn_1:hover {
+    background-color: #488123;
+}
+.inpt:hover {
+    box-shadow: 0 0 10px rgba(16, 168, 37, 0.9);
+}
+.inpt_2:hover {
+    box-shadow: 0 0 10px rgba(16, 168, 37, 0.9);
+}
+.inpt_up:hover {
+    box-shadow: 0 0 10px rgba(16, 168, 37, 0.9);
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "ofont"; 
+    src: url("../fonts/ofont.ru_EchoRevival.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+    h1 {
+        font-family: ofont;
+    }
+    @font-face {
+        font-family: "ofont_2"; 
+        src: url("../fonts/ofont.ru_Gagalin.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 
+        a {
+            font-family: ofont_2;
+        }
+        p {
+            font-family: ofont_2;
+        }
+        h2 {
+            font-family: ofont_2;
+        }
